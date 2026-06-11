@@ -8,6 +8,7 @@ This project contains or references to work in progress or abandoned Ocarina of 
 * `the-legend-of-zelda-ocarina-of-time-2d-0-10-2-en-win.zip`: Ocarina of Time 2D v0.10 by CheerfulSage & GodsTurf (2014)
 * `OoT-2D-2014-v.15.2.zip`: Ocarina of Time 2D v0.15 by CheerfulSage & GodsTurf (2014)
 * `oot2d_fsa.zip`: Ocarina Of Time 2D FSA by Team Dekunutz
+* `zelda-oot-2d-unity_v0.2.0_windows.zip`: Ocarina of Time 2D (Unity) v0.2.0 — prebuilt Windows build by moobotec ([release](https://github.com/moobotec/zelda-oot-2d-unity/releases/tag/v0.2.0_a); source is the [`zelda-oot-2d-unity`](https://github.com/moobotec/zelda-oot-2d-unity) submodule)
 
 The directories extracted from these archives are ignored via `.gitignore` (see the archives above for the original source).
 
