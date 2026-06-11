@@ -10,3 +10,6 @@
 [submodule "oot2d-map"]
 	path = oot2d-map
 	url = https://github.com/fluxcompile/oot2d-map
+[submodule "Zelda-oot-2d-demake-alpha-0.2"]
+	path = Zelda-oot-2d-demake-alpha-0.2
+	url = https://github.com/Thorym1991/Zelda-oot-2d-demake-alpha-0.2

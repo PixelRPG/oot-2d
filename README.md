@@ -14,11 +14,12 @@ The directories extracted from these archives are ignored via `.gitignore` (see 
 
 # Source code (git submodules)
 
-Unity source projects are referenced as git submodules. Initialize them with `git submodule update --init`.
+Game source projects are referenced as git submodules. Initialize them with `git submodule update --init`.
 
-* [`OoT2DUnity`](https://github.com/Colbydude/OoT2DUnity): Ocarina of Time 2D: Unity by Colbydude — a fan game for the purpose of learning Unity (Unity 2022.3.0f1), inspired by Team Dekunutz's OoT2D FSA.
+* [`OoT2DUnity`](https://github.com/Colbydude/OoT2DUnity): Ocarina of Time 2D: Unity by Colbydude — a Unity fan game (Unity 2022.3.0f1) for the purpose of learning Unity, inspired by Team Dekunutz's OoT2D FSA.
 * [`Unity2D-Zelda`](https://github.com/Ellard24/Unity2D-Zelda): "Electric Slide" — a 2D Zelda-style Unity project built as a CS 419 university course project (Ellard24).
 * [`zelda-oot-2d-unity`](https://github.com/moobotec/zelda-oot-2d-unity): Ocarina of Time 2D, an actively developed personal/experimental Unity fan game (minimap, inventory, NPC dialogue & save systems) by moobotec.
+* [`Zelda-oot-2d-demake-alpha-0.2`](https://github.com/Thorym1991/Zelda-oot-2d-demake-alpha-0.2): Ocarina of Time 2D demake (alpha 0.2), a Godot 4.4 learning project by Thorym1991.
 
 # Tools
 
