@@ -1,0 +1,9 @@
+[submodule "Unity2D-Zelda"]
+	path = Unity2D-Zelda
+	url = https://github.com/Ellard24/Unity2D-Zelda
+[submodule "zelda-oot-2d-unity"]
+	path = zelda-oot-2d-unity
+	url = https://github.com/moobotec/zelda-oot-2d-unity
+[submodule "OoT2DUnity"]
+	path = OoT2DUnity
+	url = git@github.com:Colbydude/OoT2DUnity.git
