@@ -7,3 +7,6 @@
 [submodule "OoT2DUnity"]
 	path = OoT2DUnity
 	url = git@github.com:Colbydude/OoT2DUnity.git
+[submodule "oot2d-map"]
+	path = oot2d-map
+	url = https://github.com/fluxcompile/oot2d-map
