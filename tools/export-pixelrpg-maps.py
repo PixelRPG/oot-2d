@@ -116,6 +116,10 @@ def main(argv):
             "id": map_id,
             "name": os.path.splitext(fname)[0].replace("_", " "),
             "version": "1.0.0",
+            # The original renderer fills the whole room with the header's
+            # background colour before painting tiles — without it the
+            # sparse maps (Field is ~19% tiles) show void instead of grass.
+            "backgroundColor": info.get("background_color", "#000000"),
             "tileWidth": TILE,
             "tileHeight": TILE,
             "columns": cols,
