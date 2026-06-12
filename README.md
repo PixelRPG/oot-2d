@@ -53,6 +53,12 @@ python3 tools/export-maps.py "<game folder with Maps/ and Tiles/>" out/
 
 This produces one PNG per map (e.g. `ExportedMaps/Kokiri_Forest.png`).
 
+### FSA room references (`oot2d_fsa`)
+
+The FSA project stores rooms as GameMaker `.bin` files (`oot2d_fsa/source/Rooms/*.bin`, `GMAP` magic — header + object list + a 21x15 u16 tile grid) whose tile-id semantics live inside the `.gmk` and aren't decodable from the loose files. The AUTHORITATIVE visual references are the project's own screenshots in `oot2d_fsa/graphics/screens/` — `kokiri_inside_sample_01.png` is `links_house` rendered at exactly 21x15 tiles (copied to `references/fsa_links_house_reference.png` since the extracted archive is git-ignored). Note the screenshots use an EARLIER art pass than `graphics/finalized/` — layouts match, pixels don't.
+
+`tools/match-room-tiles.py` reconstructs a tile grid from such a screenshot by exact-matching 16px cells against a tileset (JSON grid + verification render; unmatched cells are usually object overlays). It needs screenshot and tileset to share the same art pass — for the FSA samples vs `finalized/` it reports 0 matches (the repaint), which is itself the documented finding.
+
 # Links
 
 ## Abandoned
